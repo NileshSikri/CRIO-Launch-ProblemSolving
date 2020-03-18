@@ -28,6 +28,7 @@ class MatrixTraversal  {
 
             if(i>=n || i<0 || j>=m || j<0)
             {
+              lst.clear();
               lst.add(-1);
               flag=1;
               break;
