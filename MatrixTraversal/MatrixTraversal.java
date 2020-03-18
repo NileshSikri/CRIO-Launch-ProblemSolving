@@ -20,12 +20,13 @@ class MatrixTraversal  {
             if(dir==1)
             j=j+1;
             if(dir==2)
+            i=i+1;
+            if(dir==3)
+            j=j-1;
+            if(dir==4)
             i=i-1;
-            if(dir==1)
-            j++;
-            if(dir==1)
-            j++;
-            if(i>=n || j>=m)
+
+            if(i>=n || i<0 || j>=m || j<0)
             {
               lst.add(-1);
               flag=1;
@@ -35,11 +36,9 @@ class MatrixTraversal  {
             lst.add(matrix[i][j]);
             s++;
           }
-          flag=1;
+          if(flag==1)
           break;
         }
-        else 
-        continue;
       }
       if(flag==1)
       break;
