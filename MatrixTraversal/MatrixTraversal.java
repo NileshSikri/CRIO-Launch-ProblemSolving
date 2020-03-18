@@ -11,9 +11,9 @@ class MatrixTraversal  {
     for(int i = 0; i < n; i++)
     {
       int m = matrix[i].length;
-      for(int j = 0; i < m; j++)
+      for(int j = 0; j < m; j++)
       {
-        if(i == currX && j== currY)
+        if(i == currX && j == currY)
         {
           int s=0;
           while(s<steps){
