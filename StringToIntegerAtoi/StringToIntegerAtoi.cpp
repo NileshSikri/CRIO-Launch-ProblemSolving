@@ -7,7 +7,7 @@ public:
     // Implement your solution by completing the below function	
     int myAtoi(string str) {
     	int ans = 0;
-
+		ans = stoi(str);
         return ans;
     }
 };
