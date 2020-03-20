@@ -15,8 +15,8 @@ public class TwoSum {
             }
             map.put(nums[i],i);
         }
-        
-        return new int[0];
+        throw IllegalArgumentException("No solution for TWo Sum");
+        // return new int[0];
     }
 
     public static void main(String[] args) {
