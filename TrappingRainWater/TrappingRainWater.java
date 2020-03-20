@@ -8,7 +8,7 @@ class TrappingRainWater {
         int ans =0;
         int left[] = new int[n];
         int right[] = new int[n];
-        left[0] = height[i];
+        left[0] = height[0];
         right[n-1] = height[n-1];
         
         for(int i=1;i<n;i++)
