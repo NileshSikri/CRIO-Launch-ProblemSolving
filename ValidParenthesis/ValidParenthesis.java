@@ -8,24 +8,24 @@ public class ValidParenthesis {
       Stack<Character> stk = new Stack<>(); 
       for(int i=0;i<n;i++)
       {
-        if(s.charAt[i]=='(' || s.charAt[i]=='{' || s.charAt[i]=='[')
+        if(s.charAt(i)=='(' || s.charAt(i)=='{' || s.charAt(i)=='[')
         stk.push(s.charAt[i]);
 
-        if(s.charAt[i]==')')
+        if(s.charAt(i)==')')
         {
           char a = stk.peek();
           if(a=='(')
           stk.pop();
         }
 
-        if(s.charAt[i]=='}')
+        if(s.charAt(i)=='}')
         {
           char a = stk.peek();
           if(a=='{')
           stk.pop();
         }
 
-        if(s.charAt[i]==']')
+        if(s.charAt(i)==']')
         {
           char a = stk.peek();
           if(a=='[')
