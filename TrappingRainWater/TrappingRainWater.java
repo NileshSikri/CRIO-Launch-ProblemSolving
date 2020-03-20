@@ -4,7 +4,7 @@ class TrappingRainWater {
 
     // complete the below function implementation
     public int trap(int[] height) {
-        int n = height.length();
+        int n = height.length;
         int ans =0;
         int left[] = new int[n];
         int right[] = new int[n];
