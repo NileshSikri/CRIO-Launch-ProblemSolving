@@ -9,7 +9,7 @@ public class ValidParenthesis {
       for(int i=0;i<n;i++)
       {
         if(s.charAt(i)=='(' || s.charAt(i)=='{' || s.charAt(i)=='[')
-        stk.push(s.charAt[i]);
+        stk.push(s.charAt(i));
 
         if(s.charAt(i)==')')
         {
